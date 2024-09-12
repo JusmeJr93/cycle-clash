@@ -39,8 +39,9 @@ The game rules are defined based on the number of moves provided:
 4. **Read the "How To Play" notes:**  
    _node guide.js_
 
-5. **Run the game** with odd number of moves:
-   _node index.js move1 move2 move3 ... moveN_ or _npm start move1 move2 move3 ... moveN_
+5. **Run the game** with odd number of moves:  
+    _node index.js move1 move2 move3 ... moveN_  
+    or with _npm start move1 move2 move3 ... moveN_
 
 ## How It Works
 
