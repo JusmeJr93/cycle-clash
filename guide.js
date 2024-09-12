@@ -1,7 +1,7 @@
 import chalk from "chalk";
 
 console.log(chalk.green(`
-    Welcome to the Cycle Clash Contest!
+    Welcome to the Cycle Clash Game!
     
     1. **Objective:**
        - In this game, you will compete against the computer using a set of moves. Each move interacts with other moves according to specific rules to determine the winner.

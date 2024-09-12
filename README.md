@@ -1,8 +1,8 @@
-# Cycle Clash Contest
+# Cycle Clash Game
 
 ## Overview
 
-**Cycle Clash Contest** is a generalized version of the classic Rock-Paper-Scissors game. This game allows for any odd number of moves, with custom rules that ensure each move wins against half of the other moves and loses against the remaining ones. The game is designed to be played through the command line and supports interactive help, move validation, and secure move generation using HMAC.
+**Cycle Clash Game** is a generalized version of the classic Rock-Paper-Scissors game. This game allows for any odd number of moves, with custom rules that ensure each move wins against half of the other moves and loses against the remaining ones. The game is designed to be played through the command line and supports interactive help, move validation, and secure move generation using HMAC.
 
 ## Game Rules
 
@@ -40,7 +40,7 @@ The game rules are defined based on the number of moves provided:
    _node guide.js_
 
 5. **Run the game** with odd number of moves:
-   _node index.js move1 move2 move3 ... moveN_
+   _node index.js move1 move2 move3 ... moveN_ or _npm start move1 move2 move3 ... moveN_
 
 ## How It Works
 
@@ -61,10 +61,11 @@ The game rules are defined based on the number of moves provided:
 4. **HMAC Regeneration:**
    After the winner is determined and the score is updated, a new round begins. The computer selects a new move, generates a new HMAC, and you can continue playing or exit by choosing "0".
 
-## 🚀 Technologies and Topics Used
+## Technologies and Topics Used
 
 - **JavaScript:** The core programming language used to implement the game logic and structure.
 - **Node.js:** JavaScript runtime used to execute the game logic and enable command-line interaction for players.
+- **ECMAScript modules** was used, so make sure to always add the extension (.js) when running commands.
 - **OOP (Object-Oriented Programming):** The project follows an OOP approach, organizing the logic into classes for cleaner, more maintainable code.
 - **HMAC (Hashed Message Authentication Code):** Cryptographic technique used to ensure that the computer's move is securely hashed before the player makes their choice, maintaining fairness and integrity.
 - **CLI (Command-Line Interface):** Interactive text-based interface for users to play the game, view stats, and reset or get help with commands.
@@ -72,4 +73,6 @@ The game rules are defined based on the number of moves provided:
 - **chalk:** Library used to enhance the visual experience by adding styled and colored output.
 - **Table (cli-table):** Library used to generate and display the move interaction table, providing an easy way to visualize how each move interacts with others.
 - **path:** Module used to handle and resolve file paths to ensure portability across different operating systems.
--**fs:** Module used to create and update a JSON file for the stats.
+- **fs:** Module used to create and update a JSON file for the stats.
+
+[Watch the video here](https://drive.google.com/file/d/YOUR_VIDEO_ID/view)
