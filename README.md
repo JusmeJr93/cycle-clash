@@ -40,8 +40,8 @@ The game rules are defined based on the number of moves provided:
    _node guide.js_
 
 5. **Run the game** with odd number of moves:  
-    _node index.js move1 move2 move3 ... moveN_  
-    or with _npm start move1 move2 move3 ... moveN_
+    _node index.js move1 move2 move3 ..._  
+    or with: _npm start move1 move2 move3 ..._
 
 ## How It Works
 
@@ -75,5 +75,3 @@ The game rules are defined based on the number of moves provided:
 - **Table (cli-table):** Library used to generate and display the move interaction table, providing an easy way to visualize how each move interacts with others.
 - **path:** Module used to handle and resolve file paths to ensure portability across different operating systems.
 - **fs:** Module used to create and update a JSON file for the stats.
-
-[Watch the video here](https://drive.google.com/file/d/YOUR_VIDEO_ID/view)
